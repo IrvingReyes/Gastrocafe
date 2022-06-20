@@ -1,0 +1,62 @@
+version: '3.4'
+
+services:
+
+  db:
+    image: dbgastrocafe
+    build: 
+     context: ./sqlserver
+     dockerfile: Dockerfile
+    volumes:
+        - ./dockerDB/:/var/opt/mssql/data
+    networks:
+        - default
+    deploy:
+        replicas: 1
+      
+  sanrafael:
+    image: ${DOCKER_REGISTRY-}sanrafael
+    build:
+      context: .
+      dockerfile: SanRafael/Dockerfile
+    environment:
+        - DIRECTORIO=/gastrocafe
+    expose:
+        - "80"
+    depends_on:
+        - db
+    networks:
+        - default
+    deploy:
+        replicas: 1
+      
+  nginx-proxy:
+    image: nginxgastrocafe
+    build: 
+     context: ./nginx
+     dockerfile: Dockerfile
+    expose:
+      - 80
+    links:
+        - sanrafael:sanrafael
+    networks:
+      - default
+      - traefik_public
+    deploy:
+      replicas: 1
+      labels:
+        - "traefik.enable=true"
+        - "traefik.docker.network=traefik_public"
+        - "traefik.http.routers.gastrocafe.rule=(Host(`feiapps.uv.mx`) && PathPrefix(`/gastrocafe`))"
+        - "traefik.http.routers.gastrocafe.entrypoints=web"
+        - "traefik.http.routers.gastrocafe.middlewares=https_redirect"
+        - "traefik.http.services.gastrocafe.loadbalancer.server.port=80"
+        - "traefik.http.services.gastrocafe.loadbalancer.passhostheader=true"
+        - "traefik.http.routers.gastrocafesecured.rule=(Host(`feiapps.uv.mx`) && PathPrefix(`/gastrocafe`))"
+        - "traefik.http.routers.gastrocafesecured.entrypoints=websecure"
+        - "traefik.http.routers.gastrocafesecured.tls.certresolver=myresolver"
+
+
+networks:
+  traefik_public:
+      external: true

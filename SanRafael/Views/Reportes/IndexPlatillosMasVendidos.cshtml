@@ -1,0 +1,60 @@
+﻿@model IEnumerable<SanRafael.Models.Receta>
+
+@{
+    ViewData["Title"] = "IndexPlatillosMasVendidos";
+}
+
+<section class="container">
+    <h2>Platillos más vendidos</h2>
+
+
+    <div class="table-responsive-md">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Nombre)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.TipoReceta)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Clasificacion)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.PrecioDefinidoPorUsuario)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.RecetasVendidas)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    if (item.RecetasVendidas>0)
+                    {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Nombre)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TipoReceta)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Clasificacion)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PrecioDefinidoPorUsuario)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RecetasVendidas)
+                        </td>
+                    </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</section>

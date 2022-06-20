@@ -1,0 +1,42 @@
+﻿@model IEnumerable<SanRafael.Models.Receta>
+
+@{ ViewData["Title"] = "PreciosRecetas"; }
+
+<section class="container">
+    <h2>Precios sugeridos y precios de venta al público de las recetas</h2>
+
+
+    <div class="table-responsive-md">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Nombre)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.PrecioSugerido)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.PrecioDefinidoPorUsuario)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PrecioSugerido)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PrecioDefinidoPorUsuario)
+        </td>
+    </tr>}
+            </tbody>
+        </table>
+    </div>
+</section>

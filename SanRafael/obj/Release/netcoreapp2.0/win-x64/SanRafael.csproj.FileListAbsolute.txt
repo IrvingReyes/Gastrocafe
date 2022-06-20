@@ -1,0 +1,15 @@
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\bin\Release\netcoreapp2.0\win-x64\appsettings.Development.json
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\bin\Release\netcoreapp2.0\win-x64\appsettings.json
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\bin\Release\netcoreapp2.0\win-x64\bundleconfig.json
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\bin\Release\netcoreapp2.0\win-x64\Properties\launchSettings.json
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\bin\Release\netcoreapp2.0\win-x64\SanRafael.deps.json
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\bin\Release\netcoreapp2.0\win-x64\SanRafael.runtimeconfig.json
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\bin\Release\netcoreapp2.0\win-x64\SanRafael.runtimeconfig.dev.json
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\bin\Release\netcoreapp2.0\win-x64\SanRafael.dll
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\bin\Release\netcoreapp2.0\win-x64\SanRafael.pdb
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\obj\Release\netcoreapp2.0\win-x64\SanRafael.AssemblyInfoInputs.cache
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\obj\Release\netcoreapp2.0\win-x64\SanRafael.AssemblyInfo.cs
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\obj\Release\netcoreapp2.0\win-x64\SanRafael.dll
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\obj\Release\netcoreapp2.0\win-x64\SanRafael.pdb
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\obj\Release\netcoreapp2.0\win-x64\SanRafael.csprojAssemblyReference.cache
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\obj\Release\netcoreapp2.0\win-x64\UserSecretsAssemblyInfo.cs

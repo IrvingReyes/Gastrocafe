@@ -1,0 +1,30 @@
+﻿@model SanRafael.Models.Receta
+
+@{
+    ViewData["Title"] = "RegistrarVenta";
+}
+
+<section class="container">
+    <h2>Registrar ventas de recetas</h2>
+    <hr />
+    <div class="row">
+        <div class="col-md-4 offset-md-4">
+            <label>Platillos vendidos</label> <label class="campo-requerido">*</label>
+            <form asp-action="ActualizarPlatillosVendidos" id="recetas_vendidas">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" />
+                <div class="form-group">
+                    <input type="number" asp-for="RecetasVendidas" class="form-control" />
+                    <span id="error_cantidad_platillos" class="text-danger"></span>
+                    <span asp-validation-for="RecetasVendidas" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input id="btnRegistrarPlatillos" type="submit" value="Registrar" class="btn btn-block btn-sm btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

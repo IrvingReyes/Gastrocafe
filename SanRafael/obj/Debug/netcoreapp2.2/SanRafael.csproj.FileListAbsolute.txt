@@ -1,0 +1,14 @@
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\bin\Debug\netcoreapp2.2\bundleconfig.json
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\bin\Debug\netcoreapp2.2\SanRafael.deps.json
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\bin\Debug\netcoreapp2.2\SanRafael.runtimeconfig.json
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\bin\Debug\netcoreapp2.2\SanRafael.runtimeconfig.dev.json
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\bin\Debug\netcoreapp2.2\SanRafael.dll
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\bin\Debug\netcoreapp2.2\SanRafael.pdb
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\obj\Debug\netcoreapp2.2\UserSecretsAssemblyInfo.cs
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\obj\Debug\netcoreapp2.2\SanRafael.AssemblyInfoInputs.cache
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\obj\Debug\netcoreapp2.2\SanRafael.AssemblyInfo.cs
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\obj\Debug\netcoreapp2.2\SanRafael.dll
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\obj\Debug\netcoreapp2.2\SanRafael.pdb

@@ -1,0 +1,57 @@
+﻿@model IEnumerable<SanRafael.Models.InsumoModels.InsumoPrecioHistorial>
+
+@{
+    ViewData["Title"] = "PreciosInsumosComprados";
+}
+
+<section class="container">
+    <h2>Precios de los insumos comprados</h2>
+
+
+    <div class="table-responsive-md">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Insumo.Nombre)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Insumo.Tienda)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Insumo.StockMinimo)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Fecha)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Precio)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Insumo.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Insumo.Tienda)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Insumo.StockMinimo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Fecha)
+                    </td>
+                    <th>
+                        @Html.DisplayFor(modelItem => item.Precio)
+                    </th>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</section>

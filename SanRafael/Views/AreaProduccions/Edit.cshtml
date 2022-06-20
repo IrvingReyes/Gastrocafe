@@ -1,0 +1,45 @@
+﻿@model SanRafael.Models.AreaProduccion
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+    <section class="container">
+        <h2>Editar Area de produccion</h2>
+        <hr />
+        <div class="row">
+            <div class="col-md-4 offset-md-4">
+                <h4>Area de produccion</h4>
+                <form asp-action="Edit">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="Id" />
+                    <div class="form-group">
+                        <label asp-for="Nombre" class="control-label"></label> <label class="campo-requerido">*</label>
+                        <input asp-for="Nombre" class="form-control" />
+                        <h1 class="texto-ayuda"> Por ejemplo: cocina, almacén, etc.</h1>
+                        <span asp-validation-for="Nombre" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Responsable" class="control-label"></label> <label class="campo-requerido">*</label>
+                        <input asp-for="Responsable" class="form-control" />
+                        <span asp-validation-for="Responsable" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Descripcion" class="control-label"></label> <label class="campo-requerido">*</label>
+                        <textarea asp-for="Descripcion" class="form-control"></textarea>
+                        <span asp-validation-for="Descripcion" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Guardar cambios" class="btn btn-sm btn-block btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div>
+            <a asp-action="Index" class="btn btn-success">Regresar al listado</a>
+        </div>
+    </section>
+        @section Scripts {
+            @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+        }

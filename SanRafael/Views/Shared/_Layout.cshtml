@@ -1,0 +1,61 @@
+﻿@using System;
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>@ViewData["Title"] - Gastrocafé</title>
+
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/default.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/alertify.css" asp-append-version="true" />
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Varela+Round" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/default.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/alertify.css" asp-append-version="true" />
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Varela+Round" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    </environment>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" asp-controller="Home" asp-action="Index">Gastrocafé</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            @await Html.PartialAsync("_LoginPartial")
+        </div>
+    </nav>
+    <section class="container-fluid container-home">
+        @RenderBody()
+    </section>
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/popper/popper.min.js"></script>
+        <script src="~/lib/bootstrap/js/bootstrap.js"></script>
+
+        <script src="~/js/alertify.js" asp-append-version="true"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/popper/popper.min.js"></script>
+        <script src="~/lib/bootstrap/js/bootstrap.js"></script>
+
+        <script src="~/js/alertify.js" asp-append-version="true"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </environment>
+
+    @*Script usado para pasar la variable DIRECTORIO del compose al site.js*@
+    <script> dirVirtual = '@Environment.GetEnvironmentVariable("DIRECTORIO")';</script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

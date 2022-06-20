@@ -1,0 +1,72 @@
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\bin\Release\netcoreapp2.0\appsettings.Development.json
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\bin\Release\netcoreapp2.0\appsettings.json
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\bin\Release\netcoreapp2.0\bundleconfig.json
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\bin\Release\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\bin\Release\netcoreapp2.0\SanRafael.deps.json
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\bin\Release\netcoreapp2.0\SanRafael.runtimeconfig.json
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\bin\Release\netcoreapp2.0\SanRafael.runtimeconfig.dev.json
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\bin\Release\netcoreapp2.0\SanRafael.dll
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\bin\Release\netcoreapp2.0\SanRafael.pdb
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\obj\Release\netcoreapp2.0\SanRafael.csprojAssemblyReference.cache
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\obj\Release\netcoreapp2.0\SanRafael.AssemblyInfoInputs.cache
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\obj\Release\netcoreapp2.0\SanRafael.AssemblyInfo.cs
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\obj\Release\netcoreapp2.0\SanRafael.dll
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\obj\Release\netcoreapp2.0\SanRafael.pdb
+C:\Users\Montse\Documents\GitHub\SanRafael\SanRafael\obj\Release\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\appsettings.Development.json
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\appsettings.json
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\bundleconfig.json
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\SanRafael.deps.json
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\SanRafael.runtimeconfig.json
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\SanRafael.runtimeconfig.dev.json
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\SanRafael.dll
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\SanRafael.pdb
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\Gastrocafe--San-Rafael-\SanRafael\obj\Release\netcoreapp2.0\SanRafael.csprojAssemblyReference.cache
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\Gastrocafe--San-Rafael-\SanRafael\obj\Release\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\Gastrocafe--San-Rafael-\SanRafael\obj\Release\netcoreapp2.0\SanRafael.AssemblyInfoInputs.cache
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\Gastrocafe--San-Rafael-\SanRafael\obj\Release\netcoreapp2.0\SanRafael.AssemblyInfo.cs
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\Gastrocafe--San-Rafael-\SanRafael\obj\Release\netcoreapp2.0\SanRafael.dll
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\Gastrocafe--San-Rafael-\SanRafael\obj\Release\netcoreapp2.0\SanRafael.pdb
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\NUEVO\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\appsettings.Development.json
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\NUEVO\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\appsettings.json
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\NUEVO\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\bundleconfig.json
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\NUEVO\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\NUEVO\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\SanRafael.deps.json
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\NUEVO\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\SanRafael.runtimeconfig.json
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\NUEVO\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\SanRafael.runtimeconfig.dev.json
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\NUEVO\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\SanRafael.dll
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\NUEVO\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\SanRafael.pdb
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\NUEVO\Gastrocafe--San-Rafael-\SanRafael\obj\Release\netcoreapp2.0\SanRafael.csprojAssemblyReference.cache
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\NUEVO\Gastrocafe--San-Rafael-\SanRafael\obj\Release\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\NUEVO\Gastrocafe--San-Rafael-\SanRafael\obj\Release\netcoreapp2.0\SanRafael.AssemblyInfoInputs.cache
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\NUEVO\Gastrocafe--San-Rafael-\SanRafael\obj\Release\netcoreapp2.0\SanRafael.AssemblyInfo.cs
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\NUEVO\Gastrocafe--San-Rafael-\SanRafael\obj\Release\netcoreapp2.0\SanRafael.dll
+C:\Users\Montse\Documents\UV\8vo semestre\Practicas\Programa\NUEVO\Gastrocafe--San-Rafael-\SanRafael\obj\Release\netcoreapp2.0\SanRafael.pdb
+C:\Users\Luis\Videos\Tareas-2020-Sep-Feb\ServicioSocial\Github\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\appsettings.Development.json
+C:\Users\Luis\Videos\Tareas-2020-Sep-Feb\ServicioSocial\Github\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\appsettings.json
+C:\Users\Luis\Videos\Tareas-2020-Sep-Feb\ServicioSocial\Github\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\Luis\Videos\Tareas-2020-Sep-Feb\ServicioSocial\Github\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\bundleconfig.json
+C:\Users\Luis\Videos\Tareas-2020-Sep-Feb\ServicioSocial\Github\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\SanRafael.deps.json
+C:\Users\Luis\Videos\Tareas-2020-Sep-Feb\ServicioSocial\Github\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\SanRafael.runtimeconfig.json
+C:\Users\Luis\Videos\Tareas-2020-Sep-Feb\ServicioSocial\Github\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\SanRafael.runtimeconfig.dev.json
+C:\Users\Luis\Videos\Tareas-2020-Sep-Feb\ServicioSocial\Github\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\SanRafael.dll
+C:\Users\Luis\Videos\Tareas-2020-Sep-Feb\ServicioSocial\Github\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\SanRafael.pdb
+C:\Users\Luis\Videos\Tareas-2020-Sep-Feb\ServicioSocial\Github\Gastrocafe--San-Rafael-\SanRafael\obj\Release\netcoreapp2.0\SanRafael.csprojAssemblyReference.cache
+C:\Users\Luis\Videos\Tareas-2020-Sep-Feb\ServicioSocial\Github\Gastrocafe--San-Rafael-\SanRafael\obj\Release\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Luis\Videos\Tareas-2020-Sep-Feb\ServicioSocial\Github\Gastrocafe--San-Rafael-\SanRafael\obj\Release\netcoreapp2.0\SanRafael.AssemblyInfoInputs.cache
+C:\Users\Luis\Videos\Tareas-2020-Sep-Feb\ServicioSocial\Github\Gastrocafe--San-Rafael-\SanRafael\obj\Release\netcoreapp2.0\SanRafael.AssemblyInfo.cs
+C:\Users\Luis\Videos\Tareas-2020-Sep-Feb\ServicioSocial\Github\Gastrocafe--San-Rafael-\SanRafael\obj\Release\netcoreapp2.0\SanRafael.dll
+C:\Users\Luis\Videos\Tareas-2020-Sep-Feb\ServicioSocial\Github\Gastrocafe--San-Rafael-\SanRafael\obj\Release\netcoreapp2.0\SanRafael.pdb
+D:\VISUAL_STUDIO\UV_SS\GASTROCAFE\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\SanRafael.deps.json
+D:\VISUAL_STUDIO\UV_SS\GASTROCAFE\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\SanRafael.runtimeconfig.json
+D:\VISUAL_STUDIO\UV_SS\GASTROCAFE\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\SanRafael.runtimeconfig.dev.json
+D:\VISUAL_STUDIO\UV_SS\GASTROCAFE\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\SanRafael.dll
+D:\VISUAL_STUDIO\UV_SS\GASTROCAFE\Gastrocafe--San-Rafael-\SanRafael\bin\Release\netcoreapp2.0\SanRafael.pdb
+D:\VISUAL_STUDIO\UV_SS\GASTROCAFE\Gastrocafe--San-Rafael-\SanRafael\obj\Release\netcoreapp2.0\SanRafael.csprojAssemblyReference.cache
+D:\VISUAL_STUDIO\UV_SS\GASTROCAFE\Gastrocafe--San-Rafael-\SanRafael\obj\Release\netcoreapp2.0\SanRafael.csproj.CoreCompileInputs.cache
+D:\VISUAL_STUDIO\UV_SS\GASTROCAFE\Gastrocafe--San-Rafael-\SanRafael\obj\Release\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\VISUAL_STUDIO\UV_SS\GASTROCAFE\Gastrocafe--San-Rafael-\SanRafael\obj\Release\netcoreapp2.0\SanRafael.AssemblyInfoInputs.cache
+D:\VISUAL_STUDIO\UV_SS\GASTROCAFE\Gastrocafe--San-Rafael-\SanRafael\obj\Release\netcoreapp2.0\SanRafael.AssemblyInfo.cs
+D:\VISUAL_STUDIO\UV_SS\GASTROCAFE\Gastrocafe--San-Rafael-\SanRafael\obj\Release\netcoreapp2.0\SanRafael.dll
+D:\VISUAL_STUDIO\UV_SS\GASTROCAFE\Gastrocafe--San-Rafael-\SanRafael\obj\Release\netcoreapp2.0\SanRafael.pdb

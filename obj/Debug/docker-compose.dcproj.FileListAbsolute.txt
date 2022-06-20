@@ -1,0 +1,14 @@
+C:\Users\Luis\Videos\Tareas-2020-Sep-Feb\ServicioSocial\Github\Gastrocafe--San-Rafael-\bin\Debug\SanRafael.dll
+C:\Users\Luis\Videos\Tareas-2020-Sep-Feb\ServicioSocial\Github\Gastrocafe--San-Rafael-\bin\Debug\SanRafael.pdb
+C:\Users\Luis\Videos\Tareas-2020-Sep-Feb\ServicioSocial\Github\Gastrocafe--San-Rafael-\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\Users\Luis\Videos\Tareas-2020-Sep-Feb\ServicioSocial\Github\Gastrocafe--San-Rafael-\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\IS Aorus\source\repos\Gastrocafe--San-Rafael-\bin\Debug\SanRafael.dll
+C:\Users\IS Aorus\source\repos\Gastrocafe--San-Rafael-\bin\Debug\SanRafael.pdb
+C:\Users\IS Aorus\source\repos\Gastrocafe--San-Rafael-\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\Users\IS Aorus\source\repos\Gastrocafe--San-Rafael-\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\IS Aorus\source\repos\Gastrocafe--San-Rafael-\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\IS Aorus\source\repos\Gastrocafe\bin\Debug\SanRafael.dll
+C:\Users\IS Aorus\source\repos\Gastrocafe\bin\Debug\SanRafael.pdb
+C:\Users\IS Aorus\source\repos\Gastrocafe\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\Users\IS Aorus\source\repos\Gastrocafe\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\IS Aorus\source\repos\Gastrocafe\obj\Debug\docker-compose.dcproj.CopyComplete

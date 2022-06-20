@@ -1,0 +1,36 @@
+services:
+  db:
+    build:
+      context: C:\Users\IS Aorus\source\repos\Gastrocafe\sqlserver
+      dockerfile: Dockerfile
+    volumes:
+    - C:\Users\IS Aorus\source\repos\Gastrocafe\dockerDB:/var/opt/mssql/data:rw
+  nginx-proxy:
+    build:
+      context: C:\Users\IS Aorus\source\repos\Gastrocafe\nginx
+      dockerfile: Dockerfile
+    links:
+    - sanrafael
+    ports:
+    - published: 80
+      target: 80
+  sanrafael:
+    build:
+      context: C:\Users\IS Aorus\source\repos\Gastrocafe
+      dockerfile: SanRafael/Dockerfile
+    depends_on:
+      db:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DIRECTORIO: /gastrocafe
+    expose:
+    - '80'
+    image: sanrafael
+    ports:
+    - target: 80
+    volumes:
+    - C:\Users\IS Aorus\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'
+volumes:
+  dockerBD: {}
