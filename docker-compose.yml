@@ -39,24 +39,5 @@ services:
       - 80
     links:
         - sanrafael:sanrafael
-    networks:
-      - default
-      - traefik_public
-    deploy:
-      replicas: 1
-      labels:
-        - "traefik.enable=true"
-        - "traefik.docker.network=traefik_public"
-        - "traefik.http.routers.ocean.rule=(Host(`feiapps.uv.mx`) && PathPrefix(`/ocean`))"
-        - "traefik.http.routers.ocean.entrypoints=web"
-        - "traefik.http.routers.ocean.middlewares=https_redirect"
-        - "traefik.http.services.ocean.loadbalancer.server.port=80"
-        - "traefik.http.services.ocean.loadbalancer.passhostheader=true"
-        - "traefik.http.routers.oceansecured.rule=(Host(`feiapps.uv.mx`) && PathPrefix(`/ocean`))"
-        - "traefik.http.routers.oceansecured.entrypoints=websecure"
-        - "traefik.http.routers.oceansecured.tls.certresolver=myresolver"
 
 
-networks:
-  traefik_public:
-      external: true
